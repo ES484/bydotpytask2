@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className='w-[50%] pe-10 pb-5 flex justify-between fixed bottom-0 text-sm text-primaryTextColor'>
+    <div className='w-full pe-10 pb-5 flex justify-between bottom-0 text-sm text-primaryTextColor'>
       <p>© Markatty 2022</p>
       <p className='flex items-center'>
         <Image 
