@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.PhoneInputCountryIcon--border {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+.PhoneInputCountryIcon {
+    border: 1px solid transparent;
+    border-radius: 50%;
+    
+}
+.PhoneInputCountryIconImg {
+    border-radius: 50%;
+}
+.PhoneInput {
+    border-bottom: 0 !important;
+    padding: 0 !important;
+}
+.PhoneInputInput {
+    background-color: transparent;
+}
+.PhoneInputInput:focus {
+    border: none !important;
+    outline: none !important;
+}
+.otp > div > div input {
+    border: 3px solid #7244C8;
+    box-sizing: border-box;
+  }
+.otp > div > div input[value=''] {
+    border-width: 1px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    margin-inline-end: 10px;
+    border-color: #D0D5DD !important;
+}
+
